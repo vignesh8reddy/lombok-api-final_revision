@@ -96,6 +96,6 @@ So lombok api equals() method return true for objects of same type and having sa
 * Actually, the main purpose of hashcode is to identify an object in the heap area.
 * So, an object can more than one hashcode, one is unique to every object which is given by Object class
   to identify it uniquely in the heap area. And the another one overridden hashcode given by lombok api.
-* orginial hashcode is given by method identityHashCode() by Object class
+* orginial hashcode is given by method identityHashCode() by System class
 
 */
